@@ -9,7 +9,6 @@ export function info(req: Request): Response {
 			value: new ResponseInfo({
 				version: '1.0.0',
 				lastBlockHeight: 0n,
-				// lastBlockAppHash: Buffer.from('cadastry'),
 				lastBlockAppHash: Buffer.from(''),
 			})
 		}
