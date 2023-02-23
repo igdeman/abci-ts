@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./build",
+		"allowJs": true,
+		"target": "ESNext",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"lib": [
+			"ESNext"
+		]
+	},
+	"include": [
+		"src",
+	]
+}
