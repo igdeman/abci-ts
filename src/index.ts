@@ -29,7 +29,6 @@ const server = createServer((socket) => {
 		console.log(`Data received on channel - ${id}`);
 		console.log('socket.bytesRead', socket.bytesRead);
 		socket.write(processMessage(data));
-		socket.pipe(socket);
 	});
 
 });
